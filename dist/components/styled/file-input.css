@@ -1,0 +1,173 @@
+.file-input {
+    overflow: hidden;
+    border-width: 1px;
+    border-color: hsl(var(--bc) / var(--tw-border-opacity));
+    --tw-border-opacity: 0;
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--b1) / var(--tw-bg-opacity));
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border-radius: var(--rounded-btn, 0.5rem);
+}
+  .file-input::file-selector-button {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--n) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--n) / var(--tw-bg-opacity));
+    font-weight: 600;
+    text-transform: uppercase;
+    --tw-text-opacity: 1;
+    color: hsl(var(--nc) / var(--tw-text-opacity));
+    text-decoration-line: none;
+    border-width: var(--border-btn, 1px);
+    animation: button-pop var(--animation-btn, 0.25s) ease-out;
+    text-transform: var(--btn-text-case, uppercase);
+}
+  .file-input-bordered {
+    --tw-border-opacity: 0.2;
+}
+  .file-input:focus {
+    outline: 2px solid hsla(var(--bc) / 0.2);
+    outline-offset: 2px;
+  }
+  .file-input-ghost {
+    --tw-bg-opacity: 0.05;
+}
+  .file-input-ghost:focus {
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+    color: hsl(var(--bc) / var(--tw-text-opacity));
+      box-shadow: none;
+}
+  .file-input-ghost::file-selector-button {
+    border-width: 1px;
+    border-color: transparent;
+    background-color: transparent;
+    color: currentColor;
+}
+  .file-input-primary {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--p) / var(--tw-border-opacity));
+}
+  .file-input-primary:focus {
+      outline: 2px solid hsl(var(--p));
+    }
+  .file-input-primary::file-selector-button {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--p) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--p) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--pc) / var(--tw-text-opacity));
+}
+  .file-input-secondary {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--s) / var(--tw-border-opacity));
+}
+  .file-input-secondary:focus {
+      outline: 2px solid hsl(var(--s));
+    }
+  .file-input-secondary::file-selector-button {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--s) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--s) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--sc) / var(--tw-text-opacity));
+}
+  .file-input-accent {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--a) / var(--tw-border-opacity));
+}
+  .file-input-accent:focus {
+      outline: 2px solid hsl(var(--a));
+    }
+  .file-input-accent::file-selector-button {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--a) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--a) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--ac) / var(--tw-text-opacity));
+}
+  .file-input-info {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--in) / var(--tw-border-opacity));
+}
+  .file-input-info:focus {
+      outline: 2px solid hsl(var(--in));
+    }
+  .file-input-info::file-selector-button {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--in) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--in) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--inc, var(--nc)) / var(--tw-text-opacity));
+}
+  .file-input-success {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--su) / var(--tw-border-opacity));
+}
+  .file-input-success:focus {
+      outline: 2px solid hsl(var(--su));
+    }
+  .file-input-success::file-selector-button {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--su) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--su) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--suc, var(--nc)) / var(--tw-text-opacity));
+}
+  .file-input-warning {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--wa) / var(--tw-border-opacity));
+}
+  .file-input-warning:focus {
+      outline: 2px solid hsl(var(--wa));
+    }
+  .file-input-warning::file-selector-button {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--wa) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--wa) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--wac, var(--nc)) / var(--tw-text-opacity));
+}
+  .file-input-error {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--er) / var(--tw-border-opacity));
+}
+  .file-input-error:focus {
+      outline: 2px solid hsl(var(--er));
+    }
+  .file-input-error::file-selector-button {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--er) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--er) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--erc, var(--nc)) / var(--tw-text-opacity));
+}
+  .file-input-disabled,
+  .file-input[disabled] {
+    cursor: not-allowed;
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--b2, var(--b1)) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
+    --tw-text-opacity: 0.2;
+}
+  .file-input-disabled::placeholder,
+  .file-input[disabled]::placeholder {
+    color: hsl(var(--bc) / var(--tw-placeholder-opacity));
+    --tw-placeholder-opacity: 0.2;
+}
+  .file-input-disabled::file-selector-button, .file-input[disabled]::file-selector-button {
+    --tw-border-opacity: 0;
+    background-color: hsl(var(--n) / var(--tw-bg-opacity));
+    --tw-bg-opacity: 0.2;
+    color: hsl(var(--bc) / var(--tw-text-opacity));
+    --tw-text-opacity: 0.2;
+}
