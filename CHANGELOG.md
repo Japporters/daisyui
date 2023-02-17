@@ -2,6 +2,62 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.50.1](https://github.com/saadeghi/daisyui/compare/v2.50.0...v2.50.1) (2023-02-14)
+
+
+### Bug Fixes
+
+* [#1598](https://github.com/saadeghi/daisyui/issues/1598) ([fe5fb3b](https://github.com/saadeghi/daisyui/commit/fe5fb3bb49384d9b11158f999cb76edeec6fb8bd))
+
+## [2.50.0](https://github.com/saadeghi/daisyui/compare/v2.49.0...v2.50.0) (2023-02-01)
+
+
+### Bug Fixes
+
+* [#1560](https://github.com/saadeghi/daisyui/issues/1560) `menu-title` opacity and color inheritance ([bec2094](https://github.com/saadeghi/daisyui/commit/bec2094a63c17fe7d2ad72967e30706f0035894a))
+* [#1562](https://github.com/saadeghi/daisyui/issues/1562) ([469cb2c](https://github.com/saadeghi/daisyui/commit/469cb2c9d409b70f8fb0174c19563617ed8ec00d))
+* [#1564](https://github.com/saadeghi/daisyui/issues/1564) collapse arrow in RTL mode ([c8c7353](https://github.com/saadeghi/daisyui/commit/c8c7353da8306846742ec99bd5f2842d580f84f3))
+* [#1567](https://github.com/saadeghi/daisyui/issues/1567) remove `rating` border radius on mobile ([df41fbc](https://github.com/saadeghi/daisyui/commit/df41fbc24c518df0a0b0b18c9493e8b805f96306))
+* indicator white space ([7df6173](https://github.com/saadeghi/daisyui/commit/7df61735f7c517b2ffd3131a1d5dfe06b6319eb8))
+
+## [2.49.0](https://github.com/saadeghi/daisyui/compare/v2.48.0...v2.49.0) (2023-01-25)
+
+
+### Bug Fixes
+
+* [#1070](https://github.com/saadeghi/daisyui/issues/1070) ([1c7640b](https://github.com/saadeghi/daisyui/commit/1c7640bef75d569bdf209bdec94f16a9604bb057))
+
+## [2.48.0](https://github.com/saadeghi/daisyui/compare/v2.47.1...v2.48.0) (2023-01-25)
+
+### Features
+
+* `textarea` now has `xs`, `sm`, `md` and `lg` sizes: [#1462](https://github.com/saadeghi/daisyui/pull/1542)
+
+### Bug Fixes
+
+*  A `tooltip` without a `data-tip` attribute will not show an empty tooltip anymore [#1501](https://github.com/saadeghi/daisyui/pull/1501)
+
+* Fix bordered menu entry on sub menus [#1536](https://github.com/saadeghi/daisyui/pull/1536)
+
+
+* [#1551](https://github.com/saadeghi/daisyui/issues/1551) ([8fce093](https://github.com/saadeghi/daisyui/commit/8fce093bc11eb7814bc7bdfc0b9dcc61f65db417))
+
+### [2.47.1](https://github.com/saadeghi/daisyui/compare/v2.47.0...v2.47.1) (2023-01-25)
+
+## [2.47.0](https://github.com/saadeghi/daisyui/compare/v2.46.1...v2.47.0) (2023-01-16)
+
+
+### Features
+
+* More precise Hex to HSL conversion .Now HSL values round to 5 decimal places instead of 0 ([36d27f0](https://github.com/saadeghi/daisyui/commit/36d27f096f41ce43733002f4e617be7ecb1883ca))
+
+
+### Bug Fixes
+
+* **docs:** Bordered menu item preview has incorrect class ([#1505](https://github.com/saadeghi/daisyui/issues/1505)) ([e2857f7](https://github.com/saadeghi/daisyui/commit/e2857f74a1f3f5f8d7bb8130aa429ce15297895c))
+* **docs:** typos in the Portuguese translation ([#1482](https://github.com/saadeghi/daisyui/issues/1482)) ([763726c](https://github.com/saadeghi/daisyui/commit/763726cb6c3eabed70eef2a3af6202328fb51ebc))
+* **docs:** update and improve japanese translation ([#1510](https://github.com/saadeghi/daisyui/issues/1510)) ([4fbba93](https://github.com/saadeghi/daisyui/commit/4fbba93808f7a2a36c09f3057e2c2bd1552a8b3d))
+
 ### [2.46.1](https://github.com/saadeghi/daisyui/compare/v2.46.0...v2.46.1) (2023-01-02)
 
 ## [2.46.0](https://github.com/saadeghi/daisyui/compare/v2.45.0...v2.46.0) (2022-12-20)
