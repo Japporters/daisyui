@@ -1,6 +1,6 @@
-.menu.horizontal li.bordered > a,
-        .menu.horizontal li.bordered > button,
-        .menu.horizontal li.bordered > span {
+.menu.horizontal > li.bordered > a,
+        .menu.horizontal > li.bordered > button,
+        .menu.horizontal > li.bordered > span {
   border-left-width: 0px;
   border-bottom-width: 4px;
   --tw-border-opacity: 1;
@@ -69,14 +69,15 @@
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-  .menu .menu-title > * {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  .menu .menu-title {
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 700;
-  color: hsl(var(--bc) / var(--tw-text-opacity));
-  --tw-text-opacity: 0.4;
+  opacity: 0.4;
+}
+  .menu .menu-title > * {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .menu :where(li:not(.disabled)) > :where(*:not(ul)) {

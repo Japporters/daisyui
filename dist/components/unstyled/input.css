@@ -20,6 +20,7 @@
 }
 .input-group > *,
   .input-group > .input,
+  .input-group > .textarea,
   .input-group > .select {
     border-radius: 0px;
 }

@@ -25,6 +25,6 @@
         background-color: transparent;
       }
 
-[dir="rtl"] .breadcrumbs>ul>li+*:before {
-  --tw-rotate: -45deg;
+[dir="rtl"] .breadcrumbs > ul > li + *:before {
+  --tw-rotate: -135deg;
 }

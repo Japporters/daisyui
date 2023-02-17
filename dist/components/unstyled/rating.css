@@ -3,5 +3,6 @@
     display: inline-flex
 }
   .rating :where(input) {
-    cursor: pointer
+    cursor: pointer;
+    border-radius: 0px
 }
